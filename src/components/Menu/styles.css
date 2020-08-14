@@ -1,0 +1,26 @@
+.menu-container{
+    margin-top: 24px;
+}
+
+.menu-container a{
+    color: var(--primaryColor);
+    font-weight: 300;
+    font-family: Roboto;
+    font-size: 23px;
+    text-decoration: none;
+}
+
+.menu-container a:first-child {
+    margin-right: 30px;
+}
+
+@media (max-width: 400px){
+    .menu-container a:first-child {
+        margin-right: 30px;
+    }
+    .menu-container{
+        margin-left: 24px;
+    }
+    
+    
+}

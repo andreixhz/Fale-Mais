@@ -1,0 +1,116 @@
+    
+    .content-calculator{
+        margin-top: 85px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .content-calculator h1{
+        font-family: Roboto;
+        font-weight: 300;
+        font-size: 27px;
+    }
+    .content-calculator h1:first-child{
+        margin-bottom: 27px;
+    }
+
+    .plan-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Input_Plan{
+        margin-top: 21px;
+        width: 480px;
+        font-size: 18px;
+        padding-bottom: '13px'; border-radius:'5px'; height:'45px';
+    }
+
+    .Input_Plan_Select {
+        width: 480px;
+        line-height: 3px;
+    }
+
+    .content-calculator button{
+        margin-top: 27px;
+    }
+
+    .locale-container{
+        display: flex;
+        width: 447px;
+        justify-content: space-between;
+    }
+
+    .locale-container div{
+        display: flex;
+        align-items: center;
+    }
+
+    .locale-container div h1{
+        margin-left: 10px;
+    }
+
+    .minutes-container{
+        width: 480px;
+    }
+
+    .info-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .service-info-container{
+        font-family: Roboto;
+        font-weight: 300;
+        font-size: 20px;
+        margin-bottom: 30px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .service-info-container h1{
+        margin: 0;
+    }
+
+    .service-info-container div:first-child{
+        margin-bottom: 10px;
+    }
+
+@media (max-width: 600px){
+    .content-calculator h1{
+        font-family: Roboto;
+        font-weight: 300;
+        font-size: 18px;
+    }
+
+    .Input_Plan{
+        width: 300px;
+    }
+
+    .Input_Plan_Select {
+        width: 300px;
+        line-height: 3px;
+    }   
+
+    .locale-container{
+        display: flex;
+        width: 290px;
+        justify-content: space-between;
+    }
+
+    .minutes-container{
+        width: 300px;
+    }    
+    .service-info-container{
+        font-size: 16px;
+        justify-content: space-between;
+        flex-direction: row;
+        display: flex;
+        align-items: baseline;
+    }
+}
